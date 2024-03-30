@@ -1,10 +1,8 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,;
-    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #111;
     color: white;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
 }
 
 header {
@@ -16,9 +14,7 @@ header {
 }
 
 h1 {
-    align-items: center;
     text-align: center;
-    margin-right: 70px;
     padding: 5px;
 }
 
@@ -32,8 +28,6 @@ h1 img {
 nav ul {
     text-align: center;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -68,7 +62,7 @@ li {
 }
 
 h2 {
-    color: #333;
+    color: #ffffff;
 }
 
 h2 img {
@@ -87,6 +81,7 @@ a {
 .imageButtonText {
     display: inline-block;
     margin-right: 20px;
+    text-align: center;
 }
 
 .imageButtonText p {
@@ -103,48 +98,66 @@ a {
     border-radius: 10px;
     border: 6px solid #616161;
     transition: all 0.3s ease;
-  }
-  
-  .button img {
+}
+
+.button img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease;
     vertical-align: middle;
-  }
-  
-  .button:hover {
-    transform: scale(01.04);
-  }
-  
-  .button:hover {
-    border-color: #999;
-  }
-
-  .pagebuttons{
-  font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  font-size: 17px;
-  border-radius: 40px;
-  transition-property: background-color,border-color,color,box-shadow,filter;
-  transition-duration: .3s;
-  border: 1px solid transparent;
-  letter-spacing: 1px;
-  min-width: 160px;
-  text-transform: none;
-  white-space: normal;
-  font-weight: 200;
-  text-align: center;
-  padding: 16px 14px 18px;
-  color: #a2a3a3;
-  box-shadow: inset 0 0 0 2px #616467;
-  background-color: transparent;
-  height: auto;
-  transition: transform 0.3s ease;
 }
-  .pagebuttons:hover{
-      color: #fff;
-      background-color: #616467;
-      transform: scale(1.1)
-  }
+
+.button:hover {
+    transform: scale(1.04);
+    border-color: #999;
+}
+
+.pagebuttons {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 40px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    letter-spacing: 1px;
+    min-width: 160px;
+    text-transform: none;
+    white-space: normal;
+    font-weight: 200;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #a2a3a3;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: transparent;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.pagebuttons:hover {
+    color: #fff;
+    background-color: #616467;
+    transform: scale(1.1);
+}
+
+.gamesSection {
+    background-color: #111;
+}
+
+.gameContainer {
+    padding: 20px;
+    margin: 50px;
+    /* overflow: scroll; */
+}
+
+.contactSection {
+    background-color: #111;
+}
+
+.contactContainer {
+    padding: 20px;
+    margin: 50px;
+    padding-bottom: 80px;
+}
